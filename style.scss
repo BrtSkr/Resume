@@ -18,13 +18,14 @@ p {
 }
 
 body {
+    margin: 0;
     background: #222;
     font-family: $font;
 }
 
 main {
     background: white;
-    width: 50%;
+    width: 100%;
     padding: 2rem;
     min-height: 80rem;
     margin: auto;
@@ -45,11 +46,11 @@ main {
 
     .info-container {
         display: flex;
-        justify-content: space-between;
-
+        justify-content: center;
+        gap: 2rem;
         width: 100%;
         min-height: 50rem;
-
+        padding: 1rem;
         .info--container-bar {
             display: flex;
             flex-direction: column;
@@ -70,7 +71,7 @@ main {
         .info--container-main {
 
             background: $light-bg;
-            flex-basis: 70%;
+            flex-basis: 60%;
             border-radius: $border-radius;
             padding: 0rem 6rem 2rem 2rem;
 
