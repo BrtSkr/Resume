@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
+    "startEng": "parcel indexENG.html",
     "build": "parcel build index.html --public-url .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
